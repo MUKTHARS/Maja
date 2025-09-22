@@ -322,3 +322,135 @@ body {
 .chat-messages::-webkit-scrollbar-thumb:hover {
   background: #a8a8a8;
 }
+
+/* Message text formatting */
+.message-content p {
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+/* Ensure proper text wrapping */
+.message-content {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    line-height: 1.4;
+}
+
+/* Numbered and bullet points styling */
+.message-content {
+    text-align: left;
+}
+
+/* Style numbered lists */
+.message-content ol {
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.message-content li {
+    margin-bottom: 0.3rem;
+    line-height: 1.4;
+}
+
+/* Style for clean bullet points */
+.message-content ul {
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    list-style-type: disc;
+}
+
+/* Emphasis without markdown */
+.message-content strong {
+  font-weight: 600;
+  color: inherit;
+}
+
+
+.message-content em {
+    font-style: italic;
+}
+
+/* Welcome message improvements */
+.welcome-message p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+/* Better spacing for messages */
+.message.user .message-content strong {
+  color: #e0e7ff;
+}
+
+.message.ai .message-content {
+  line-height: 1.6;
+}
+
+.message.user .message-content {
+    text-align: left;
+}
+
+/* Improved readability */
+.chat-messages {
+    line-height: 1.4;
+}
+
+/* Ensure proper text contrast */
+.dark-mode .message.ai .message-content {
+    color: #e0e0e0;
+}
+
+.light-mode .message.ai .message-content {
+    color: #333;
+}
+
+.message-content strong {
+  font-weight: 600;
+  color: inherit;
+}
+
+.message.user .message-content strong {
+  color: #e0e7ff;
+}
+
+.message.ai .message-content {
+  line-height: 1.6;
+}
+
+.message.ai .message-content strong {
+  color: #667eea;
+  font-weight: 600;
+}
+
+.dark-mode .message.ai .message-content strong {
+  color: #8b9dff;
+}
+
+/* Improve message spacing and readability */
+.message-content p {
+  margin-bottom: 0.5rem;
+}
+
+.message-content br {
+  margin-bottom: 0.5rem;
+  display: block;
+  content: "";
+}
+
+/* List styling */
+.message-content strong:first-child {
+  display: inline-block;
+  margin-right: 0.3rem;
+}
+
+/* Better text rendering */
+.message-content {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Ensure proper spacing for formatted content */
+.message.ai .message-content {
+  padding: 1rem 1.2rem;
+}
