@@ -605,4 +605,14 @@ body {
   .reaction-btn {
     padding: 3px 4px;
   }
+
+  .message-content strong {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.message.ai .message-content strong {
+  color: #1a365d;
+}
+
 }

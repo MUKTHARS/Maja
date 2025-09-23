@@ -16,7 +16,7 @@ function App() {
       <div className="container">
         <div className="hero-section">
           {/* <h1>Mental Wellness Companion</h1> */}
-          <p>Your empathetic AI assistant for mental health support and motivation</p>
+          {/* <p>Your empathetic AI assistant for mental health support and motivation</p> */}
         </div>
         <ChatBox />
       </div>
