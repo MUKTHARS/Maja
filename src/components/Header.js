@@ -8,7 +8,7 @@ export default function Header({ darkMode, toggleDarkMode }) {
           <line x1="9" y1="9" x2="9.01" y2="9"></line>
           <line x1="15" y1="9" x2="15.01" y2="9"></line>
         </svg>
-        <span>MindCare AI</span>
+        {/* <span>MindCare AI</span> */}
       </div>
       <button className="theme-toggle" onClick={toggleDarkMode}>
         {darkMode ? (
